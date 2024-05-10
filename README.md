@@ -50,4 +50,9 @@ public class Main {
 - Instead of creating object for ourself by adding new keyword. with component we can create the bean and with the Autowired we can initialize the bean automatically.
 - Check PizzaController class file for three different way to have the Autowired annotations i.e Constructor based, setter, and annotations based.
 
+### Qualifier
+@**Qualifier = This annotation helps to choose which bean to use for the Autowired
+
+- Check pizza interface we implemented that to two class PizzaService and NonVegPizza
+- In PizzaController autowired we need to specify which bean we need to use, so the Qualifier annotation help us to use the correct bean.
 
